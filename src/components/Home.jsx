@@ -11,6 +11,9 @@ const Home = () => {
       <Link to='/animation'><div className='bg-red-400 px-4 py-6'>Animation</div></Link>
       <Link to='/button'><div className='bg-red-400 px-4 py-6'>Button</div></Link>
       <Link to='/navber'><div className='bg-red-400 px-4 py-6'>Navber</div></Link>
+      <Link to='/banner'><div className='bg-red-400 px-4 py-6'>Banner</div></Link>
+      <Link to='/cards'><div className='bg-red-400 px-4 py-6'>Cards</div></Link>
+
 
 
     </div>
