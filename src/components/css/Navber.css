@@ -1,0 +1,10 @@
+.up{
+    transition: all 2s ease-in-out;
+}
+
+.up:hover .first{
+    display: block;
+    
+    height: auto;
+    background-color: red;
+}

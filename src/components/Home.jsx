@@ -9,6 +9,8 @@ const Home = () => {
       <Link to='/person'><div className='bg-red-400 px-4 py-6'>Person</div></Link>
       <Link to='/mouse'><div className='bg-red-400 px-4 py-6'>Mouse</div></Link>
       <Link to='/animation'><div className='bg-red-400 px-4 py-6'>Animation</div></Link>
+      <Link to='/button'><div className='bg-red-400 px-4 py-6'>Button</div></Link>
+      <Link to='/navber'><div className='bg-red-400 px-4 py-6'>Navber</div></Link>
 
 
     </div>
