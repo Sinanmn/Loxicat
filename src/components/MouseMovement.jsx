@@ -36,7 +36,7 @@ const MouseMovement = () => {
       <style>{keyframes}</style>
 
       <div
-        className="w-36 h-11 absolute"
+        className="w-36 h-10 absolute"
         style={{ top: position.y - 37, left: position.x - 72 }}
       >
         <div className="bg-black text-white overflow-hidden w-full h-full rounded-full flex justify-center items-center relative">
