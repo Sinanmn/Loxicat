@@ -49,8 +49,8 @@ const Navbar = () => {
   return (
     <header>
       {/* Bottom Navigation Bar */}
-      <nav className="bg-[#F5F5F5] h-[99px]">
-        <div className="relative h-full container mx-auto flex justify-around items-center gap-36">
+      <nav className="bg-[#F5F5F5] h-[99px] z-50">
+        <div className=" h-full container mx-auto flex justify-around items-center gap-36">
           {/* Left Navigation Links */}
           <ul className="flex space-x-6 h-full text-[17px] font-bold">
             <li className="h-full flex items-center hover:text-orange-500 transition-all duration-200 ease-linear cursor-pointer">
@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
 
             {/* Page Dropdown */}
-            <li className="h-full flex items-center hover:text-orange-500 transition-all duration-200 ease-linear cursor-pointer relative group/up gap-2">
+            <li className="border-2 h-full flex items-center hover:text-orange-500 transition-all duration-200 ease-linear cursor-pointer relative group/up gap-2">
               Page
               <SlArrowDown className="text-[9px] mt-[1px]" />
               {/* First Dropdown (shows on Page hover) */}
@@ -97,11 +97,11 @@ const Navbar = () => {
             </li>
 
             {/* Services Dropdown */}
-            <li className="gap-2 h-full flex items-center hover:text-orange-500 transition-all duration-200 ease-linear cursor-pointer relative group">
+            <li className="group gap-2 h-full flex items-center hover:text-orange-500 transition-all duration-200 ease-linear cursor-pointer  ">
               Services
               <SlArrowDown className="text-[9px] mt-[1px]" />
-              <ul className="text-black text-sm absolute top-full left-0 hidden group-hover:block bg-[#F5F5F5] w-52">
-                <li className="hover:pl-7 block px-4 py-4 hover:bg-orange-500 hover:text-white transition-all duration-300 ease-in-out border-b-2">
+              <ol className="text-blue-500 -z-10 text-sm absolute overflow-hidden top-0 left-0 ease-in-out  group-hover:opacity-100 group-hover:visible group-hover:top-[100px] transition-all duration-500 bg-[#F5F5F5] w-full">
+              <li className="hover:pl-7 block px-4 py-4 hover:bg-orange-500 hover:text-white transition-all duration-300 ease-in-out border-b-2">
                   All Services
                 </li>
                 <li className="hover:pl-7 block px-4 py-4 hover:bg-orange-500 hover:text-white transition-all duration-300 ease-in-out border-b-2">
@@ -122,7 +122,7 @@ const Navbar = () => {
                 <li className="hover:pl-7 block px-4 py-4 hover:bg-orange-500 hover:text-white transition-all duration-300 ease-in-out border-b-2">
                   Welding Services
                 </li>
-              </ul>
+              </ol>
             </li>
 
             {/* Projects Dropdown */}

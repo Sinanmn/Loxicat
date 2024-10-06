@@ -15,6 +15,9 @@ import Navber from './components/Navber';
 import Banner from './components/Banner';
 import Cards from './components/Cards';
 import MouseMovement from './components/MouseMovement';
+import ButtonEffect from './components/ButtonEffect';
+import Video from './components/Video';
+import LoadingAnimation from './components/LoadingAnimation';
 
 const App = () => {
   return (
@@ -31,6 +34,11 @@ const App = () => {
       <Route path='/banner' element={<Banner/>}></Route>
       <Route path='/cards' element={<Cards/>}></Route>
       <Route path='/mousemovement' element={<MouseMovement/>}></Route>
+      <Route path='/buttoneffect' element={<ButtonEffect/>}></Route>
+      <Route path='/video' element={<Video/>}></Route>
+      <Route path='/loadingAnimation' element={<LoadingAnimation/>}></Route>
+
+
 
 
     </Routes>
