@@ -18,6 +18,8 @@ import MouseMovement from './components/MouseMovement';
 import ButtonEffect from './components/ButtonEffect';
 import Video from './components/Video';
 import LoadingAnimation from './components/LoadingAnimation';
+import NavberMegamenu from './components/NavberMegamenu';
+
 
 const App = () => {
   return (
@@ -37,6 +39,8 @@ const App = () => {
       <Route path='/buttoneffect' element={<ButtonEffect/>}></Route>
       <Route path='/video' element={<Video/>}></Route>
       <Route path='/loadingAnimation' element={<LoadingAnimation/>}></Route>
+      <Route path='/navberMegamenu' element={<NavberMegamenu/>}></Route>
+     
 
 
 

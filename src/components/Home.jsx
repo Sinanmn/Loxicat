@@ -17,6 +17,8 @@ const Home = () => {
       <Link to='/buttoneffect'><div className='bg-red-400 px-4 py-6'>Button Effect</div></Link>
       <Link to='/video'><div className='bg-red-400 px-4 py-6'>Video</div></Link>
       <Link to='/loadingAnimation'><div className='bg-red-400 px-4 py-6'>LoadingAnimation</div></Link>
+      <Link to='/navberMegamenu'><div className='bg-red-400 px-4 py-6'>Nav</div></Link>
+
 
 
 
